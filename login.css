@@ -1,0 +1,145 @@
+/* Aurora Green Background Effect */
+.login-body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #1b5e20);
+  background-size: 400% 400%;
+  animation: aurora 8s ease infinite;
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Animation for Background */
+@keyframes aurora {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Wrapper for Heading + Login */
+.login-wrapper {
+  text-align: center;
+}
+
+/* Greenish Gradient Heading with Animation */
+.login-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background: linear-gradient(45deg, #4caf50, #388e3c, #1b5e20, #81c784);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient-text 4s linear infinite;
+}
+
+/* Gradient Text Animation */
+@keyframes gradient-text {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+/* Highlight for "IndiaStocks" */
+.highlight-text {
+  font-weight: bold;
+  color: #81c784;
+}
+
+/* Tagline Styles */
+.login-tagline {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+/* Glassmorphic Login Box */
+.login-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Login Form */
+.login-container h2 {
+  margin-bottom: 1rem;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 1rem;
+}
+
+/* Placeholder Text */
+.login-container input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Login Button */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #1b5e20;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1rem;
+}
+
+.login-container button:hover {
+  background: #2e7d32;
+}
+.logout-button {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+}
+/* Sign-up Link */
+.login-container p {
+  margin-top: 10px;
+}
+
+.login-container a {
+  color: #81c784;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
