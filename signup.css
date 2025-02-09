@@ -1,4 +1,4 @@
-/* Aurora Green Background Effect */
+
 .signup-body {
   margin: 0;
   height: 100vh;
@@ -12,8 +12,6 @@
   color: white;
   font-family: "Poppins", sans-serif;
 }
-
-/* Animation for Background */
 @keyframes aurora {
   0% {
     background-position: 0% 50%;
@@ -25,13 +23,9 @@
     background-position: 0% 50%;
   }
 }
-
-/* Wrapper for Heading + Signup */
 .signup-wrapper {
   text-align: center;
 }
-
-/* Greenish Gradient Heading with Animation */
 .signup-heading {
   font-size: 3rem;
   font-weight: bold;
@@ -42,8 +36,6 @@
   color: transparent;
   animation: gradient-text 4s linear infinite;
 }
-
-/* Gradient Text Animation */
 @keyframes gradient-text {
   0% {
     background-position: 0% 0%;
@@ -55,21 +47,15 @@
     background-position: 0% 0%;
   }
 }
-
-/* Highlight for "IndiaStocks" */
 .highlight-text {
   font-weight: bold;
   color: #81c784;
 }
-
-/* Tagline Styles */
 .signup-tagline {
   font-size: 1.2rem;
   margin-bottom: 20px;
   opacity: 0.8;
 }
-
-/* Glassmorphic Signup Box */
 .signup-container {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
@@ -81,8 +67,6 @@
   width: 300px;
   margin: 0 auto;
 }
-
-/* Signup Form */
 .signup-container h2 {
   margin-bottom: 1rem;
 }
@@ -98,13 +82,10 @@
   color: white;
   font-size: 1rem;
 }
-
-/* Placeholder Text */
 .signup-container input::placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* Signup Button */
 .signup-container button {
   width: 100%;
   padding: 12px;
@@ -121,8 +102,6 @@
 .signup-container button:hover {
   background: #2e7d32;
 }
-
-/* Login Link */
 .signup-container p {
   margin-top: 10px;
 }
