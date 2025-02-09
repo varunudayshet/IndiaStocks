@@ -1,4 +1,4 @@
-/* Aurora Green Background Effect */
+
 .login-body {
   margin: 0;
   height: 100vh;
@@ -12,8 +12,6 @@
   color: white;
   font-family: "Poppins", sans-serif;
 }
-
-/* Animation for Background */
 @keyframes aurora {
   0% {
     background-position: 0% 50%;
@@ -26,12 +24,10 @@
   }
 }
 
-/* Wrapper for Heading + Login */
 .login-wrapper {
   text-align: center;
 }
 
-/* Greenish Gradient Heading with Animation */
 .login-heading {
   font-size: 3rem;
   font-weight: bold;
@@ -43,7 +39,6 @@
   animation: gradient-text 4s linear infinite;
 }
 
-/* Gradient Text Animation */
 @keyframes gradient-text {
   0% {
     background-position: 0% 0%;
@@ -56,20 +51,17 @@
   }
 }
 
-/* Highlight for "IndiaStocks" */
 .highlight-text {
   font-weight: bold;
   color: #81c784;
 }
 
-/* Tagline Styles */
 .login-tagline {
   font-size: 1.2rem;
   margin-bottom: 20px;
   opacity: 0.8;
 }
 
-/* Glassmorphic Login Box */
 .login-container {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
@@ -82,7 +74,6 @@
   margin: 0 auto;
 }
 
-/* Login Form */
 .login-container h2 {
   margin-bottom: 1rem;
 }
@@ -99,12 +90,10 @@
   font-size: 1rem;
 }
 
-/* Placeholder Text */
 .login-container input::placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* Login Button */
 .login-container button {
   width: 100%;
   padding: 12px;
@@ -129,7 +118,7 @@
 .logout-button:hover {
   background-color: #c0392b;
 }
-/* Sign-up Link */
+
 .login-container p {
   margin-top: 10px;
 }
