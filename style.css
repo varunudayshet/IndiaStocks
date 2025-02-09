@@ -1,4 +1,4 @@
-/* style.css */
+
 :root {
   --primary: hsl(210, 50%, 15%);
   --secondary: hsl(210, 80%, 50%);
@@ -22,8 +22,6 @@ body {
   line-height: 1.6;
   min-height: 100vh;
 }
-
-/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -88,8 +86,6 @@ nav {
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(0, 120, 255, 0.3);
 }
-
-/* Hero Section */
 .hero {
   text-align: center;
   padding: 4rem 2rem;
@@ -145,8 +141,6 @@ nav {
   transform: scale(1.05);
   box-shadow: 0 4px 15px rgba(0, 120, 255, 0.4);
 }
-
-/* Stock Grid */
 .stock-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -204,8 +198,6 @@ nav {
 .stock-change.negative {
   color: var(--negative);
 }
-
-/* Stock Graph */
 .stock-graph {
   padding: 2rem;
   max-width: 1200px;
@@ -219,8 +211,6 @@ nav {
   margin-bottom: 1.5rem;
   color: var(--accent);
 }
-
-/* Currency Converter */
 .currency-converter {
   max-width: 600px;
   margin: 2rem auto;
@@ -265,7 +255,6 @@ nav {
   color: var(--accent);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
