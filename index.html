@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IndiaStocks - Indian Stock Broker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="#" class="logo">
+        <div class="logo-icon">IS</div>
+        <span class="logo-text">IndiaStocks</span>
+      </a>
+      <nav>
+        <button class="nav-button" onclick="location.href='index.html'">
+          <i class="fas fa-home"></i> Home
+        </button>
+        <button class="nav-button" onclick="location.href='https://groww.in/calculators/sip-calculator'">
+          <i class="fas fa-rupee-sign"></i> SIP
+        </button>
+        
+        <button class="nav-button" onclick="location.href='https://www.nseindia.com/'">
+          <i class="fas fa-chart-line"></i> NSE
+        </button>
+        
+        <button
+          class="nav-button logout-button"
+          onclick="location.href='login.html'"
+        >
+          <i class="fas fa-sign-out-alt"></i> Logout
+        </button>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1>Track Your Stocks</h1>
+      <div class="search-bar">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search stock symbol"
+        />
+        <button class="search-button">🔍</button>
+      </div>
+    </div>
+
+    <!-- Stock Grid -->
+    <section class="stock-grid">
+      <!-- Stock Card 1 -->
+      <div class="stock-card">
+        <div class="stock-header">
+          <span class="stock-symbol">AAPL</span>
+          <span class="stock-price">227.25</span>
+        </div>
+        <div class="stock-change negative">
+          <i class="fas fa-arrow-down"></i> -2.56% (1D)
+        </div>
+      </div>
+      <div class="stock-card">
+        <div class="stock-header">
+          <span class="stock-symbol">TCS</span>
+          <span class="stock-price">3,845.60</span>
+        </div>
+        <div class="stock-change positive">
+          <i class="fas fa-arrow-up"></i> +1.25% (1D)
+        </div>
+      </div>
+      <div class="stock-card">
+        <div class="stock-header">
+          <span class="stock-symbol">INFY</span>
+          <span class="stock-price">1,672.30</span>
+        </div>
+        <div class="stock-change negative">
+          <i class="fas fa-arrow-down"></i> -0.75% (1D)
+        </div>
+      </div>
+    </section>
+
+    <!-- Stock Graph -->
+    <div class="stock-graph">
+      <h2>Stock Price Over Time</h2>
+      <canvas id="stockChart"></canvas>
+    </div>
+
+    <!-- Currency Converter Section -->
+    <div class="currency-converter">
+      <h2>Currency Converter</h2>
+      <input type="number" id="convert-amount" placeholder="Amount">
+      <select id="from-currency">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="INR">INR</option>
+      </select>
+      <span>to</span>
+      <select id="to-currency">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="INR">INR</option>
+      </select>
+      <button onclick="convertCurrency()">Convert</button>
+      <p id="conversion-result"></p>
+  </div>
+</div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>*/
